@@ -1,6 +1,6 @@
 fastapi==0.115.0
 uvicorn==0.30.6
-xai-sdk==0.1.0  # Или openai для совместимости
+xai-sdk==1.4.1  # Последняя стабильная
 langchain==0.3.1
 langchain-community==0.3.1
 qdrant-client==1.11.0
