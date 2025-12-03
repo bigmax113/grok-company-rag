@@ -1,9 +1,10 @@
-fastapi==0.115.0
-uvicorn==0.30.6
-xai-sdk==1.4.1  # Последняя стабильная
-langchain==0.3.1
-langchain-community==0.3.1
-qdrant-client==1.11.0
-redis==5.2.1
-sentence-transformers==3.1.1
-python-multipart==0.0.9
+fastapi
+uvicorn[standard]
+langchain-xai  # Вместо xai-sdk — LangChain wrapper для Grok
+langchain
+langchain-community
+qdrant-client
+redis
+sentence-transformers
+python-multipart
+# Нет версий — pip подберёт последние совместимые (v0.3.x или 1.0+)
