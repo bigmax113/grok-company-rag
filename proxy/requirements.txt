@@ -1,0 +1,9 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+xai-sdk==0.1.0  # Или openai для совместимости
+langchain==0.3.1
+langchain-community==0.3.1
+qdrant-client==1.11.0
+redis==5.2.1
+sentence-transformers==3.1.1
+python-multipart==0.0.9
